@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --text-hover: #dcb27b;
+
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-end a{
+  transition: 0.3s;
+}
+
+.splide__arrow--prev {
+  width: fit-content !important;
+  height: fit-content !important;
+  background-color: transparent !important;
+  color: black; 
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.splide__arrow--next {
+  width: fit-content !important;
+  height: fit-content !important;
+  background-color: transparent !important;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.splide__arrow:hover {
+  opacity: 0.8; 
+}
